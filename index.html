@@ -1,146 +1,220 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Riju | Character Animator</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-<link rel="stylesheet" href="assets/css/main.css" />
-<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<title>Riju3D | Animation Portfolio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
+
 body{
-background:#000;
-color:#fff;
+margin:0;
+font-family:Arial;
+background:#0b0f14;
+color:white;
 }
-h1,h2,p{
-color:#fff;
+
+/* Header */
+
+header{
+padding:30px;
+font-size:28px;
+font-weight:bold;
+text-align:center;
+background:#111;
+color:#4fd1ff;
 }
+
+/* Layout */
+
+.container{
+display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:200px;
+background:#0f1720;
+padding:20px;
+}
+
+.sidebar a{
+display:block;
+color:#4fd1ff;
+text-decoration:none;
+margin:10px 0;
+}
+
+.sidebar a:hover{
+color:white;
+}
+
+/* Main */
+
+.main{
+flex:1;
+padding:30px;
+}
+
+/* Section */
+
+.section{
+margin-bottom:50px;
+}
+
+.section h2{
+border-bottom:2px solid #4fd1ff;
+padding-bottom:10px;
+margin-bottom:20px;
+color:#4fd1ff;
+}
+
+/* Grid */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* Card */
+
+.card{
+background:#111827;
+padding:10px;
+border-radius:8px;
+}
+
+.card img{
+width:100%;
+border-radius:6px;
+}
+
+iframe{
+width:100%;
+height:200px;
+border:none;
+}
+
 </style>
 
 </head>
 
-<body class="is-preload">
 
-<div id="wrapper">
+<body>
 
-<section id="main">
+<header>
 
-<div class="items">
+Riju3D | Character Animator
 
-<div class="item intro span-2">
+</header>
 
-<h1>Riju – Character Animator</h1>
+<div class="container">
 
-<p>
-Character Animation | Storytelling | Performance<br>
-Tools: Maya • Blender • DaVinci Resolve
-</p>
+<!-- Sidebar -->
 
-</div>
+<div class="sidebar">
 
+<h3>Social</h3>
 
-<article class="item thumb span-2">
-
-<h2>Animation Demo Reel</h2>
-
-<a href="https://www.youtube.com/watch?v=7wr_fL5ec1U" class="image">
-
-<img src="https://img.youtube.com/vi/7wr_fL5ec1U/maxresdefault.jpg" alt="Animation Demo Reel">
-
-</a>
-
-</article>
-
-
-<article class="item thumb span-1">
-
-<h2>Squirrel Acting Shot</h2>
-
-<a href="https://www.youtube.com/watch?v=7wr_fL5ec1U" class="image">
-
-<img src="https://img.youtube.com/vi/7wr_fL5ec1U/hqdefault.jpg" alt="Squirrel Animation">
-
-</a>
-
-</article>
-
-
-<article class="item thumb span-1">
-
-<h2>Character Performance</h2>
-
-<a href="https://www.youtube.com/watch?v=7wr_fL5ec1U" class="image">
-
-<img src="https://img.youtube.com/vi/7wr_fL5ec1U/hqdefault.jpg" alt="Character Acting">
-
-</a>
-
-</article>
-
-
-<article class="item thumb span-2">
-
-<h2>Animation Practice Shot</h2>
-
-<a href="https://www.youtube.com/watch?v=7wr_fL5ec1U" class="image">
-
-<img src="https://img.youtube.com/vi/7wr_fL5ec1U/maxresdefault.jpg" alt="Animation Shot">
-
-</a>
-
-</article>
-
-</div>
-
-</section>
-
-
-
-<section id="footer">
-
-<section>
-
-<p>
-Portfolio of <strong>Riju</strong>, a character animator focused on expressive performance and cinematic storytelling.
-</p>
-
-</section>
-
-<section>
-
-<ul class="icons">
-
-<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-
-<li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-
-<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-
-<li><a href="mailto:your@email.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-
-</ul>
-
-<ul class="copyright">
-
-<li>© Riju Animation Portfolio</li>
-
-</ul>
-
-</section>
-
-</section>
+<a href="#">Instagram</a>
+<a href="#">YouTube</a>
+<a href="#">LinkedIn</a>
+<a href="#">ArtStation</a>
 
 </div>
 
 
+<!-- Main -->
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.poptrox.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<div class="main">
+
+
+<!-- Demo Reel -->
+
+<div class="section">
+
+<h2>Demo Reel</h2>
+
+<iframe src="https://www.youtube.com/embed/7wr_fL5ec1U"></iframe>
+
+</div>
+
+
+<!-- Completed Work -->
+
+<div class="section">
+
+<h2>Completed Animation</h2>
+
+<div class="grid">
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/7wr_fL5ec1U"></iframe>
+<p>Squirrel Animation</p>
+</div>
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/VIDEOID"></iframe>
+<p>Acting Shot</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Work in Progress -->
+
+<div class="section">
+
+<h2>Work In Progress</h2>
+
+<div class="grid">
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/VIDEOID"></iframe>
+<p>Blocking Stage</p>
+</div>
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/VIDEOID"></iframe>
+<p>Animation Test</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Render Images -->
+
+<div class="section">
+
+<h2>Render Images</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="images/render1.jpg">
+<p>Lighting Render</p>
+</div>
+
+<div class="card">
+<img src="images/render2.jpg">
+<p>Character Render</p>
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
 
 </body>
 </html>
