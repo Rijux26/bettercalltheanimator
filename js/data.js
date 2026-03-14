@@ -23,9 +23,9 @@ const siteData = {
     {
       id: "sr1",
       title: "Squirrel Animation",
-      embedUrl: "https://youtu.be/on3oaw570Vk", // ← replace with your URL
-      year: "2024",
-      duration: "2:34",
+      embedUrl: "https://youtu.be/on3oaw570Vk?si=kGXhCpBQhWvGb_MF", // ← replace with your URL
+      year: "2026",
+      duration: "0:34",
       description: "Character animation, VFX, Color grading.",
       featured: true,   // featured = larger card
     },
