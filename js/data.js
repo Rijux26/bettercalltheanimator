@@ -20,14 +20,7 @@ const siteData = {
      - Vimeo   → Share → Embed → copy the src="..." value
   ───────────────────────────────────────── */
   showreels: [
-    {
-      id: "sr1",
-      title: "Squirrel Animation",
-      embedUrl: "https://youtu.be/on3oaw570Vk?si=kGXhCpBQhWvGb_MF", // ← replace with your URL
-      year: "2026",
-      duration: "0:34",
-      description: "Character animation, VFX, Color grading.",
-      featured: true,   // featured = larger card
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Afh-4WCEvsg?si=NUqJVEjzM7XR1a7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>// featured = larger card
     },
     {
       id: "sr2",
