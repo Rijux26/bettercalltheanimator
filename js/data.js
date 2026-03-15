@@ -132,7 +132,7 @@ const siteData = {
 
     // Replace with your photo: put profile.jpg in /images/ folder
     // then in index.html uncomment the <img> tag and remove the placeholder div
-    photo: "images/profile.jpg",
+    photo: "Still 2025-11-11 010220_1.7.2.png",
   },
 
   /* ─────────────────────────────────────────
