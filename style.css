@@ -138,3 +138,12 @@ transition:0.3s;
 color:#ff5b2e;
 transform:translateY(-4px);
 }
+.email-link {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
