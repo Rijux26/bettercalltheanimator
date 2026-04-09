@@ -724,3 +724,17 @@ ul { list-style: none; }
     font-size: 0.6rem;
   }
 }
+.showreel-thumb .thumb-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.showreel-thumb .play-btn,
+.showreel-thumb .video-embed-overlay {
+  position: relative;
+  z-index: 1;
+}
