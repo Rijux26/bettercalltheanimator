@@ -177,6 +177,8 @@ card.innerHTML = `
         play.style.display    = "none";
         overlay.style.display = "none";
         thumb.style.backgroundImage = "none";
+        const thumbImg = thumb.querySelector(".thumb-img");
+        if (thumbImg) thumbImg.style.display = "none";
       }
     });
   });
