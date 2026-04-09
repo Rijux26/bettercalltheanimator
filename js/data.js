@@ -22,10 +22,10 @@ const siteData = {
  showreels: [
   {
     id: "sr1",
-    title: "Squirrel Animation",
-    embedUrl: "https://www.youtube-nocookie.com/embed/Afh-4WCEvsg",
+    title: "3D Animation Showreel || 2026",
+    embedUrl: "https://www.youtube.com/embed/GnPJRb0lVOg",
     year: "2026",
-    duration: "0:34",
+    duration: "2:07",
     description: "Character animation, VFX, Color grading.",
     featured: true,
   },
@@ -44,12 +44,12 @@ const siteData = {
   gallery: [
     {
       id: "g1",
-      title: "Dragon Rig — Walk Cycle",
-      src: "images/placeholder1.jpg",   // ← replace with your image
-      type: "image",                    // "image" or "video"
-      category: "character",
-      year: "2024",
-      description: "Full body rig and walk cycle animation for a fantasy dragon character.",
+      title: "Squirrel Short Anim Story",
+      src: "https://www.youtube-nocookie.com/embed/Afh-4WCEvsg",   // ← replace with your image
+      type: "video",                    // "image" or "video"
+      category: "character animation",
+      year: "2026",
+      description: "I created a short squirrel animation where I designed the entire world, rendered it in V-Ray, and completed the compositing and color grading in DaVinci Resolve.",
     },
     {
       id: "g2",
