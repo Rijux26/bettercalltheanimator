@@ -116,3 +116,23 @@ margin-top:10px;
 font-size:28px;
 }
 }
+.social{
+padding:100px 10%;
+text-align:center;
+}
+
+.social-icons{
+margin-top:20px;
+}
+
+.social-icons a{
+font-size:30px;
+margin:0 15px;
+color:white;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#ff5b2e;
+transform:translateY(-4px);
+}
