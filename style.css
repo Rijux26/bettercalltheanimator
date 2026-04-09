@@ -75,16 +75,18 @@ border-radius:10px;
 padding:80px 10%;
 }
 
-.video-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.video-card iframe{
-width:100%;
-height:200px;
-border:none;
+.video-card iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
 }
 
 .video-card h3{
