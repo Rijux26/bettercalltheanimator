@@ -9,6 +9,14 @@ body{
 background:#0b0b0b;
 color:white;
 line-height:1.6;
+overflow-x:hidden;
+}
+
+/* GLOBAL CONTAINER */
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
 }
 
 /* NAVBAR */
@@ -16,10 +24,11 @@ header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 10%;
+padding:20px 40px;
 background:black;
 position:sticky;
 top:0;
+z-index:1000;
 }
 
 .logo{
@@ -27,10 +36,15 @@ font-weight:bold;
 color:#ff5b2e;
 }
 
+nav{
+display:flex;
+gap:20px;
+}
+
 nav a{
-margin-left:20px;
 text-decoration:none;
 color:white;
+font-size:16px;
 }
 
 /* HERO */
@@ -51,13 +65,10 @@ padding:10px 20px;
 background:#ff5b2e;
 color:white;
 text-decoration:none;
+border-radius:5px;
 }
 
 /* ABOUT */
-.about{
-padding:80px 10%;
-}
-
 .about-container{
 display:flex;
 align-items:center;
@@ -71,65 +82,37 @@ border-radius:10px;
 }
 
 /* WORK */
-.work{
-padding:80px 10%;
+.video-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
 }
 
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 25px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.video-card iframe {
-  width: 100%;
-  height: 220px;
-  border-radius: 10px;
+.video-card iframe{
+width:100%;
+height:220px;
+border-radius:10px;
 }
 
 .video-card h3{
 margin-top:10px;
-}
-
-/* CONTACT */
-#contact{
-padding:80px 10%;
 text-align:center;
 }
 
-/* FOOTER */
-footer{
-text-align:center;
-padding:20px;
-background:black;
-}
-
-/* MOBILE */
-@media(max-width:768px){
-header{
-flex-direction:column;
-}
-nav{
-margin-top:10px;
-}
-.hero h1{
-font-size:28px;
-}
-}
+/* SOCIAL */
 .social{
-padding:100px 10%;
 text-align:center;
 }
 
 .social-icons{
 margin-top:20px;
+display:flex;
+justify-content:center;
+gap:25px;
 }
 
 .social-icons a{
 font-size:30px;
-margin:0 15px;
 color:white;
 transition:0.3s;
 }
@@ -138,12 +121,51 @@ transition:0.3s;
 color:#ff5b2e;
 transform:translateY(-4px);
 }
-.email-link {
-  word-break: break-all;
-  overflow-wrap: break-word;
-  display: inline-block;
-  max-width: 100%;
+
+/* EMAIL */
+.email-text{
+margin-top:25px;
 }
-body {
-  overflow-x: hidden;
+
+.email-link{
+word-break:break-all;
+color:white;
+font-size:18px;
+text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+background:black;
+margin-top:60px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:10px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+.video-card iframe{
+height:200px;
+}
+
+.about-container{
+flex-direction:column;
+text-align:center;
+}
+
 }
