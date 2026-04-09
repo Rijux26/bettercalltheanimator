@@ -130,7 +130,7 @@ function buildShowreel() {
     card.dataset.id = item.id;
 
     card.innerHTML = `
-      <div class="showreel-thumb" data-embed="${item.embedUrl}">
+      <div class="showreel-thumb" data-embed="${item.embedUrl}" style="background-image: url('${item.thumbnail}'); background-size: cover; background-position: center;">
         <div class="play-btn" aria-label="Play ${item.title}">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5"/>
