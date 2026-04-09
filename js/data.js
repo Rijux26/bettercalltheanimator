@@ -24,6 +24,7 @@ const siteData = {
     id: "sr1",
     title: "3D Animation Showreel || 2026",
     embedUrl: "https://www.youtube.com/embed/GnPJRb0lVOg",
+    thumbnail: "https://img.youtube.com/vi/GnPJRb0lVOg/maxresdefault.jpg",
     year: "2026",
     duration: "2:07",
     description: "Character animation, VFX, Color grading.",
