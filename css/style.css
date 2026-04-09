@@ -738,3 +738,33 @@ ul { list-style: none; }
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
