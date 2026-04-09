@@ -129,12 +129,13 @@ function buildShowreel() {
     card.className = `showreel-card${item.featured ? " featured" : ""}`;
     card.dataset.id = item.id;
 
-    const thumbStyle = item.thumbnail
-      ? `style="background-image: url('${item.thumbnail}'); background-size: cover; background-position: center;"`
-      : "";
+   const thumbBg = item.thumbnail
+  ? `<img class="thumb-img" src="${item.thumbnail}" alt="${item.title}" />`
+  : "";
 
-    card.innerHTML = `
-      <div class="showreel-thumb" data-embed="${item.embedUrl}" ${thumbStyle}>
+card.innerHTML = `
+  <div class="showreel-thumb" data-embed="${item.embedUrl}">
+    ${thumbBg}
         <div class="play-btn" aria-label="Play ${item.title}">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5"/>
